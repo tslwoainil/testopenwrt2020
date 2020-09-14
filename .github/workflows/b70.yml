@@ -18,7 +18,7 @@ on:
     branches:
       - main
     paths:
-      - 'b70.config'
+      - 'b70 small.config'
 #  schedule:
 #    - cron: 0 20 * * *
   watch:
@@ -28,7 +28,7 @@ env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: b70.config
+  CONFIG_FILE: b70 small.config
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2.sh
   SSH_ACTIONS: fales
